@@ -1,0 +1,34 @@
+.aler {
+  color: red;
+  font-size: 30px;
+  border: red;
+  font-family: courier;
+}
+.lab {
+  font-size: 30px;
+  font-family: courier;
+  color: black;
+}
+
+.btn span.glyphicon {
+  opacity: 0;
+}
+.btn.active span.glyphicon {
+  opacity: 1;
+}
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: white;
+  color: blue;
+  text-align: center;
+  font-family: courier;
+  font-size: 20px;
+}
+.ree {
+  color: red;
+  font-family: courier;
+}
+

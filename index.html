@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>To Do List</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+    />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+
+  <body >
+    <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+      <ul class="navbar-nav">
+        <li class="nav-item active">
+          <a
+            class="nav-link"
+            href="#"
+            style="font-size: 30px; font-family: courier"
+            >To Do List</a
+          >
+        </li>
+      </ul>
+    </nav>
+
+    <br />
+    <div class="container">
+      <div class="form-inline">
+        <label for="usr" class="lab"><b>+</b> add new task : </label>
+        <input
+          type="text"
+          class="form-control"
+          id="usr"
+          name="inp"
+          style="width: 400px"
+          onfocus="this.value=''"
+        />
+        <div></div>
+        <button type="button" class="btn btn-outline-success" id="success">
+          Add
+        </button>
+      </div>
+      <br />
+
+      <div id="output" class="aler"></div>
+      <ul class="list-group" id="ull" style="list-style-type: none"></ul>
+    </div>
+    <div class="footer">
+     <span class="ree">Abhinav</span> Singwal <a href="https://www.linkedin.com/in/abhinav-singwal/" target="_blank"> <i style="font-size:24px" class="fa">&#xf08c;</i></a>
+    </div>
+    
+    <script type="text/javascript" src="script/script.js"></script>
+  </body>
+</html>
